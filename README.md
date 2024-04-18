@@ -1,3 +1,12 @@
+## YoLoP refactor for free space segmentation  
+
+- Remove the Detect and Lane marking heads
+- Use only the segmentation head and train the network using BDD100K dataset
+- Benchmark performance with original YOLOP, compare inference time/flops, model parameters etc.
+
+
+
+
 <div align="left">   
 
 ## You Only :eyes: Once for Panoptic ​ :car: Perception
